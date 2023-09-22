@@ -1,0 +1,53 @@
+/* CSS untuk halaman "Biodata Mahasiswa" */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: pink; /* Warna latar belakang */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff1493; /* Warna header */
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    color: white; /* Warna teks header */
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Warna latar belakang konten */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #ff1493; /* Warna teks judul section */
+}
+
+p {
+    color: #333; /* Warna teks konten */
+}
+
+button {
+    background-color: #ff1493; /* Warna tombol */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efek transisi hover */
+}
+
+button:hover {
+    background-color: #ff4040; /* Warna tombol saat dihover */
+}

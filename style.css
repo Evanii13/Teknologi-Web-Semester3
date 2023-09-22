@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffc0cb; /* Warna latar belakang pink */
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff1493; /* Warna tombol pink */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff007f; /* Warna tombol pink saat dihover */
+}
+
+#hasilFibonacci,
+#hasilVolume {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #ff1493; /* Warna teks pink */
+}

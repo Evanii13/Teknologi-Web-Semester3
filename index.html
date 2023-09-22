@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Fibonacci dan Kubus</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Kalkulator Fibonacci dan Kubus</h1>
+    </header>
+
+    <main>
+
+        <!-- Input untuk deret Fibonacci -->
+        <section class="fibonacci">
+            <h2>Deret Fibonacci</h2>
+            <p>Masukkan jumlah angka dalam deret:</p>
+            <div class="input-container">
+                <label for="fibonacciCount">Jumlah Angka:</label>
+                <input type="number" id="fibonacciCount" class="input-field" placeholder="Masukkan jumlah angka">
+                <button id="calculateFibonacci" class="calculate-button">Hitung</button>
+            </div>
+            <div id="fibonacciResult" class="result"></div>
+        </section>
+
+        <!-- Input untuk menghitung volume kubus -->
+        <section class="volume">
+            <h2>Menghitung Volume Kubus</h2>
+            <p>Masukkan panjang sisi kubus:</p>
+            <div class="input-container">
+                <label for="inputSisi">Sisi:</label>
+                <input type="number" id="inputSisi" class="input-field" placeholder="Masukkan panjang sisi">
+                <button id="calculateVolumeKubus" class="calculate-button">Hitung Volume</button>
+            </div>
+            <div id="hasilPerhitungan" class="result"></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; Devani Zelvia</p>
+    </footer>
+
+    <!--file JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
